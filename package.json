@@ -1,6 +1,6 @@
 {
   "name": "@smonn/rollup-config",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Rollup configuration for @smonn/* packages",
   "main": "index.js",
   "type": "module",
