@@ -1,0 +1,45 @@
+{
+  "name": "@smonn/rollup-config",
+  "version": "0.0.0",
+  "description": "Rollup configuration for @smonn/* packages",
+  "main": "index.js",
+  "type": "module",
+  "typings": "index.d.ts",
+  "license": "MIT",
+  "sideEffects": false,
+  "engines": {
+    "node": ">=16",
+    "npm": ">=8"
+  },
+  "author": {
+    "name": "Simon Ingeson",
+    "url": "https://smonn.se"
+  },
+  "files": [
+    "index.js"
+  ],
+  "eslintConfig": {
+    "extends": "@smonn"
+  },
+  "prettier": {
+    "singleQuote": true
+  },
+  "devDependencies": {
+    "@smonn/eslint-config": "1.0.0",
+    "esbuild": "0.14.31",
+    "eslint": "8.12.0",
+    "prettier": "2.6.2",
+    "rollup": "2.70.1"
+  },
+  "dependencies": {
+    "rollup-plugin-dts": "4.2.0",
+    "rollup-plugin-esbuild": "4.8.2",
+    "rollup-plugin-filesize": "9.1.2"
+  },
+  "peerDependencies": {
+    "esbuild": "^0.14.31",
+    "rollup": "^2.70.1"
+  },
+  "homepage": "https://github.com/smonn/smonn-rollup-config",
+  "repository": "github.com:smonn/smonn-rollup-config"
+}
