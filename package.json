@@ -29,7 +29,7 @@
     "esbuild": "0.14.31",
     "eslint": "8.12.0",
     "prettier": "2.6.2",
-    "rollup": "2.70.1"
+    "rollup": "2.74.1"
   },
   "dependencies": {
     "rollup-plugin-dts": "4.2.0",
